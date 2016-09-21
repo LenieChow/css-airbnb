@@ -1,3 +1,82 @@
-h1 {
-  color: salmon;
+ h1 {
+font-family:sans-serif;
+ font-size: 30px;
+ font-weight: bold;
+ color: #484848;
+ text-align: center;
+
+
+ }
+
+ p {
+
+  text-align: center;
+  font-weight: normal;
+  color:#484848;
+  text-align:center;
+  padding-bottom: 20px;
+
+
+ }
+
+ body {
+  background: #f5f5f5;
+ }
+
+
+div {
+  display:inline;
+}
+
+
+.container {
+
+width:360px;
+margin: 0 auto;
+
+}
+
+img {
+  position:relative;
+}
+
+#napa {
+  width: 300px;
+  height: 300px;
+}
+#london {
+  width: 300px;
+  height: 300px;
+  margin-left: 175px;
+}
+#new-york {
+  width: 300px;
+  height: 300px;
+}
+
+button {
+  background-color: white;
+  width:300px;
+  height:35px;
+  color: black;
+  border: 2px solid grey;
+  margin-top: 30px;
+  font-size: 15px;
+  font-family: sans-serif;
+
+}
+
+#sonoma {
+  width:300px;
+  height:300px;
+
+}
+#san-francisco {
+  width:300px;
+  height:300px;
+  margin-left: 175px;
+}
+#san-francisco-2 {
+  width:300px;
+  height:300px;
 }
