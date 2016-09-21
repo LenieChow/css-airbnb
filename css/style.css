@@ -1,82 +1,89 @@
+body {
+  background-color: rgb(208, 215, 209)
+}
+
+div {
+  display: inline;
+}
+
+.container {
+  text-align: center;
+
+}
+
+.box {
+  position:relative;
+  display: inline-block;
+}
+
+img {
+  width: 300px;
+  height: 300px;
+}
+
+
  h1 {
 font-family:sans-serif;
  font-size: 30px;
  font-weight: bold;
  color: #484848;
  text-align: center;
+ padding-top: 10px;
+}
 
 
- }
-
- p {
-
+p {
   text-align: center;
   font-weight: normal;
   color:#484848;
   text-align:center;
   padding-bottom: 20px;
-
-
  }
 
  body {
-  background: #f5f5f5;
+  background: rgb(236, 236, 230);
  }
 
-
-div {
-  display:inline;
+ h2 {
+   position: absolute;
+   font-size: 23px;
+   font-family: sans-serif;
+   color: white;
+   top: 0;
+   bottom: 0;
+   left: 0;
+   right: 0;
+   margin: auto;
+   height: 1px;
 }
 
-
-.container {
-
-width:360px;
-margin: 0 auto;
-
+ button {
+width: 300px;
+height:35px;
+background-color: white;
+text-align: center;
+margin: 50px 480px 10px 480px;
+border: 1px solid grey;
+font-family: sans-serif;
 }
 
-img {
-  position:relative;
+ a {
+  text-decoration: none;
+  color:rgb(128, 127, 130) ;
+  font-size: 14px;
+  font-weight: bold;
 }
 
-#napa {
-  width: 300px;
-  height: 300px;
-}
-#london {
-  width: 300px;
-  height: 300px;
-  margin-left: 175px;
-}
-#new-york {
-  width: 300px;
-  height: 300px;
+body {
+  background: rgb(215, 207, 206);
 }
 
-button {
-  background-color: white;
-  width:300px;
-  height:35px;
-  color: black;
-  border: 2px solid grey;
-  margin-top: 30px;
-  font-size: 15px;
-  font-family: sans-serif;
+#box1 {
+margin-left: 175px;
 
 }
 
-#sonoma {
-  width:300px;
-  height:300px;
+#box4 {
 
-}
-#san-francisco {
-  width:300px;
-  height:300px;
-  margin-left: 175px;
-}
-#san-francisco-2 {
-  width:300px;
-  height:300px;
+margin-left: 175px;
 }
